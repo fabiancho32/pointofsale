@@ -2,10 +2,10 @@
 
 <templates xml:space="preserve" noupdate="1">
 
-	<t t-extends="PaymentScreen-Paymentlines">
-		<t t-jquery=".message" t-operation="inner">
-			hola mundo
-		</t>
-	</t>
+    <t t-extend="PaymentScreenWidget">
+      <t t-jquery=".fa" t-operation="prepend">
+        Ellos estan aqui...
+      </t>
+    </t>
 
 </templates>
