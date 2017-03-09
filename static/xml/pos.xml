@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<templates xml:space="preserve" noupdate="1">
+
+	<t t-extends="PaymentScreenWidget">
+		<h1>Ellos estan aqui</h1>
+	</t>
+
+</templates>

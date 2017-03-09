@@ -18,6 +18,7 @@ _
         'l10n_co_point_of_sale'
     ],
     'data': [],
-    'qweb': [],
+    'qweb': ['static/src/xml/pos.xml'],
     'installable': True,
 }
+
