@@ -17,8 +17,10 @@ _
     'depends': [
         'l10n_co_point_of_sale'
     ],
+    
     'data': ['views/tipoMoneda_view.xml'],
     'qweb': ['static/src/xml/pos.xml'],
+
     'installable': True,
 }
 

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<templates xml:space="preserve" noupdate="1">
+
+    <t t-extend="PaymentScreenWidget">
+      <t t-jquery=".fa" t-operation="prepend">
+        Ellos estan aqui...
+      </t>
+    </t>
+
+</templates>
