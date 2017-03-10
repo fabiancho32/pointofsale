@@ -4,6 +4,7 @@
 
 	<t t-extends="PaymentScreenWidget">
 		<h1>Ellos estan aqui</h1>
+		
 	</t>
 
 </templates>

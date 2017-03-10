@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+ <data>
+
+    <record id="tipomoneda_tree_view" model="ir.ui.view">
+        <field name="name">tipoMoneda</field>
+        <field name="model">tipo.moneda</field>
+        <field name="arch" type="xml">
+        <tree string="Tipo Moneda">
+            <field name="name"/>
+            <field name="moneda_id"/>
+        </tree>
+        </field>
+    </record>
+
+
+  <record id="tipomoneda_form_view" model="ir.ui.view">
+        <field name="name">tipoMoneda</field>
+        <field name="model">tipo.moneda</field>
+        <field name="arch" type="xml">
+        <form string="Nombre de la facultad" version="7.0">
+            <group>
+                <field name="name" />
+                <field name="moneda_id" />
+            </group>
+        </form>
+    </field>
+  </record>
+
+  
+    <record model="ir.actions.act_window" id="action_denominacion_moneda">
+        <field name="name">Denominacion de monedas</field>
+        <field name="res_model">tipo.moneda</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    
+
+ </data>
+</openerp>

@@ -3,4 +3,4 @@
 
 # Copyright (C) Dreamsoft.
 # Author        Dreamsoft, autores@dreamsoft.com
-import models
+from models import *
