@@ -3,8 +3,8 @@
 <templates xml:space="preserve" noupdate="1">
 
     <t t-extend="PaymentScreenWidget">
-      <t t-jquery=".fa" t-operation="prepend">
-        Ellos estan aqui...
+      <t t-jquery=".payment-buttons div:eq(1)" t-operation="replace">
+        
       </t>
     </t>
 
