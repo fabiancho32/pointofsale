@@ -8,4 +8,12 @@
       </t>
     </t>
 
+    <t t-extend="ProductScreenWidget">
+      <t t-jquery=".control-buttons" t-operation="prepend">
+        <div class="searchbox">
+                <input placeholder="Buscar en carrito" />
+        </div>
+        
+      </t>
+    </t>
 </templates>

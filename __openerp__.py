@@ -18,7 +18,7 @@ _
         'l10n_co_point_of_sale'
     ],
     
-    'data': ['views/tipoMoneda_view.xml'],
+    'data': ['views/pos_view.xml','views/tipoMoneda_view.xml'],
     'qweb': ['static/src/xml/pos.xml'],
 
     'installable': True,

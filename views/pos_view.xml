@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<openerp>
+    <data>
+
+      <template id="point_of_sale_dreamsoft" name="pointofsale point_of_sale assets" inherit_id="point_of_sale.assets">
+          <xpath expr="." position="inside">
+              <link rel="stylesheet" href="/pointofsale/static/src/css/pnpos.css" type="text/css"/>
+          </xpath>
+      </template>
+
+    </data>
+</openerp>
