@@ -15,7 +15,7 @@ _
     * This Module extends the  l10n_co_point_of_sale / Contact form in the Point of Sales Module
     """,
     'depends': [
-        'l10n_co_point_of_sale'
+        'point_of_sale',
     ],
     
     'data': ['views/pos_view.xml','views/tipoMoneda_view.xml'],

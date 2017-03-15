@@ -4,6 +4,7 @@
 
       <template id="point_of_sale_dreamsoft" name="pointofsale point_of_sale assets" inherit_id="point_of_sale.assets">
           <xpath expr="." position="inside">
+            <script type="text/javascript" src="/pointofsale/static/src/js/screens_inherit.js"></script>
             <link rel="stylesheet" href="/pointofsale/static/src/css/pnpos.css" type="text/css"/>
           </xpath>
       </template>
