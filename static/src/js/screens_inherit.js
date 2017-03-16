@@ -16,9 +16,5 @@ odoo.define('point_of_sale_screens_inherit.main', function(require) {
     var round_pr = utils.round_precision;
 
 
-    screens.include({
-
-
-    });
 
 });
