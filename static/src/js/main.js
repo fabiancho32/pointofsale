@@ -10,21 +10,21 @@ var screens = require('point_of_sale.screens');
 var _t = core._t;
 
 
-// extending client screen behavior
-screens.ProductScreenWidget.include({
+	// extending client screen behavior
+	screens.ProductScreenWidget.include({
 
-	this.metodo_prueba = function(event){
-		var self = this;
+		metodo_prueba : function(event){
+			var self = this;
 
-		if(event.type == "keypress"){
-			console.log('se presiono una tecla');
-		}
-		self.el.querySelector('.searchbox input').addEventListener('keypress', metodo_prueba);
-	},
+			if(event.type == "keypress"){
+				console.log('se presiono una tecla');
+			}
+			$el.querySelector('.searchbox input').addEventListener('keypress', metodo_prueba);
+		},
 
 
 
-});
+	});
 
 
 });
